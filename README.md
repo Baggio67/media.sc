@@ -29,6 +29,15 @@ python bot.py
 
 ---
 
+## 🛡️ 3. Activation & Clé de Licence (1 Appareil = 1 Clé)
+
+Le bot est protégé par un système de licence à verrouillage matériel :
+1. Au premier démarrage, le bot affiche votre **Identifiant Appareil unique (HWID)** (ex: `PC-8F2A-4B91-C3D7` ou `TMX-...`).
+2. Transmettez cet identifiant à l'**Administrateur** pour obtenir votre clé d'activation officielle.
+3. Collez votre clé dans le bot : elle sera liée de manière permanente et exclusive à votre machine.
+
+---
+
 ## ⚡ Fonctionnalités Incluses
 
 - **`[ 1 ]` Start Tout** : Automatisation complète multi-plateformes en mode silencieux.
