@@ -1,21 +1,38 @@
-# PR.Social Android Termux Bot 🚀
+# PR.Social Bot Pro • PC & Android 🚀
 
-Client officiel d'automatisation et de gestion de tâches pour **PR.Social** sur Android Termux.
+Client officiel haute performance et sécurisé pour **PR.Social**, compatible avec les ordinateurs **Windows / Linux / Mac** et smartphones **Android (Termux)**.
 
-## 📱 Installation & Démarrage en 1 commande
+---
 
-Ouvrez votre terminal **Termux** sur Android et collez la commande suivante :
+## 💻 1. Démarrage Rapide sur PC (Windows / Linux / Mac)
+
+Ouvrez votre invite de commande (**CMD**, **PowerShell** ou **Terminal**) et lancez :
 
 ```bash
-pkg update -y && pkg install python curl -y
-pip install requests selenium
+pip install requests pillow
 curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py
 python bot.py
 ```
 
-## 🛡️ Activation & Licence
-- **Tarif officiel** : `2.00 USD / 7 jours` (Licence hebdomadaire).
-- **Moyens de paiement acceptés** :
-  - 🇲🇬 **MVola**
-  - 🪙 **USDT (Réseau TRC-20)**
-- Au premier lancement, le bot affichera votre identifiant unique (**Smartphone ID**). Suivez les indications pour obtenir et activer votre clé instantanément.
+---
+
+## 📱 2. Démarrage Rapide sur Android (Termux)
+
+Ouvrez votre terminal **Termux** et collez :
+
+```bash
+pkg update -y && pkg install python curl -y
+pip install requests pillow
+curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py
+python bot.py
+```
+
+---
+
+## ⚡ Fonctionnalités Incluses
+
+- **`[ 1 ]` Start Tout** : Automatisation complète multi-plateformes en mode silencieux.
+- **`[ 2 ]` Auto-Surfeur** : Navigation rémunérée automatique sur les sites web partenaires.
+- **`[ 3 ]` Récupération des Rejets** : Réessai intelligent en Mode Strict des tâches rejetées.
+- **`[ 4 ]` Gestionnaire de Token** : Configuration et vérification instantanée de votre session PR.Social.
+- **`[ 5 ]` Auto-Complétion & Sentinelle Anti-Ban** : Audit de conformité des comptes et génération automatique des prérequis (avatars, packs de 5 publications) pour éviter tout avertissement.
