@@ -4,24 +4,27 @@ Client officiel haute performance et sécurisé pour **PR.Social**, compatible a
 
 ---
 
-## 💻 1. Démarrage Rapide sur PC (Windows / Linux / Mac)
+## 📱 1. Démarrage Rapide sur Android (Termux)
 
-Ouvrez votre invite de commande (**CMD**, **PowerShell** ou **Terminal**) et lancez :
-
+### 🟢 A. Pour un Nouveau Débutant (Installation Complète 1-Clic)
+Si vous installez Termux pour la première fois, collez cette commande unique :
 ```bash
-pip install requests pillow
-curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py
-python bot.py
+pkg update -y && pkg install python curl -y && pip install requests pillow && curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py && python bot.py
+```
+
+### ⚡ B. Pour un Utilisateur Déjà Installé (Mise à Jour Rapide & Démarrage)
+Pour récupérer instantanément la dernière version et lancer le bot :
+```bash
+curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py && python bot.py
 ```
 
 ---
 
-## 📱 2. Démarrage Rapide sur Android (Termux)
+## 💻 2. Démarrage Rapide sur PC (Windows / Linux / Mac)
 
-Ouvrez votre terminal **Termux** et collez :
+Ouvrez votre invite de commande (**CMD**, **PowerShell** ou **Terminal**) et lancez :
 
 ```bash
-pkg update -y && pkg install python curl -y
 pip install requests pillow
 curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py
 python bot.py
@@ -40,8 +43,8 @@ Le bot est protégé par un système de licence à verrouillage matériel :
 
 ## ⚡ Fonctionnalités Incluses
 
-- **`[ 1 ]` Start Tout** : Automatisation complète multi-plateformes en mode silencieux.
+- **`[ 1 ]` Start Tout** : Automatisation complète multi-plateformes (Instagram, YouTube, Twitter, TikTok, Threads, etc.) en mode silencieux avec contournement strict anti-avertissement.
 - **`[ 2 ]` Auto-Surfeur** : Navigation rémunérée automatique sur les sites web partenaires.
 - **`[ 3 ]` Récupération des Rejets** : Réessai intelligent en Mode Strict des tâches rejetées.
 - **`[ 4 ]` Gestionnaire de Token** : Configuration et vérification instantanée de votre session PR.Social.
-- **`[ 5 ]` Auto-Complétion & Sentinelle Anti-Ban** : Audit de conformité des comptes et génération automatique des prérequis (avatars, packs de 5 publications) pour éviter tout avertissement.
+- **`[ 5 ]` Auto-Complétion & Sentinelle Anti-Ban** : Audit de conformité des comptes et génération automatique des prérequis pour éviter tout avertissement.
