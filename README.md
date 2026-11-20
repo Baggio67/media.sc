@@ -21,8 +21,8 @@ python bot.py
 Ouvrez votre terminal **Termux** et collez :
 
 ```bash
-pkg update -y && pkg install python curl -y
-pip install requests pillow
+pkg update -y && pkg install -y python python-pillow curl
+pip install requests
 curl -sO https://raw.githubusercontent.com/Baggio67/media.sc/main/bot.py
 python bot.py
 ```
